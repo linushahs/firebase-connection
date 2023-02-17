@@ -1,0 +1,21 @@
+{
+  "name": "google-connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect.js",
+  "dependencies": {
+    "firebase": "^9.15.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
